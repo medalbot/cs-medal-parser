@@ -1,7 +1,10 @@
 services:
   cs2-medal-parser:
-    build: .
-    container_name: cs2-medal-parser:latest
+    # use prebuilt image from docker hub
+    image: kway/cs-medal-parser:latest
+    # uncomment, to build image locally from git repository
+    # build: .
+    container_name: cs-medal-parser
     volumes:
       # Persistent data storage for medals and API responses
       - ./data/:/app/data/
