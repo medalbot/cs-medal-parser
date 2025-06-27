@@ -12,7 +12,7 @@ This document explains how to set up Docker Hub integration for automated image 
 ### 1. Create Docker Hub Access Token
 
 1. Log in to Docker Hub
-2. Go to **Account Settings** → **Security**
+2. Go to **Account Settings** → **Personal access tokens**
 3. Click **New Access Token**
 4. Name: `GitHub Actions cs-medal-parser`
 5. Permissions: **Read, Write, Delete**
