@@ -59,10 +59,10 @@ Pull the optimized multi-stage image from Docker Hub:
 
 ```bash
 # Pull latest version
-docker pull username/cs-medal-parser:latest
+docker pull kway/cs-medal-parser:latest
 
 # Run directly
-docker run --rm -v $(pwd)/data:/app/data username/cs-medal-parser:latest
+docker run --rm -v $(pwd)/data:/app/data kway/cs-medal-parser:latest
 ```
 
 ### Build Locally
